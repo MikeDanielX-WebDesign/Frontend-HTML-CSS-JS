@@ -6,10 +6,9 @@ body{
 }
 header, footer{
     text-align: center;
-
     width: 400px;
     margin: 30px auto 0px auto;
-     
+    
 
 }
 main{
@@ -17,11 +16,47 @@ main{
     margin: 30px auto 0px auto;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
 input{
+    display: inline;
     font-family: 'Playwrite DE Grund', sans-serif;
+    width: 236px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+
+
+}
+input[type="submit"]{
+    background-color: #7CB9E8;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+
+    
 }
 select{
     font-family: 'Playwrite DE Grund', sans-serif;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+
 }
 
 
@@ -29,3 +64,15 @@ select{
 
 
 /* Ids */
+#nicka{
+    float: left;
+    font-family: 'Playwrite DE Grund', sans-serif;
+    text-align: center;
+    width: 20px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #ced4da;
+    background-color: #ced4da;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
